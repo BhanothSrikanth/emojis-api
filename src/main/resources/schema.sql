@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS emojis (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    symbol VARCHAR(500) NOT NULL,
+    description VARCHAR(255)
+);
